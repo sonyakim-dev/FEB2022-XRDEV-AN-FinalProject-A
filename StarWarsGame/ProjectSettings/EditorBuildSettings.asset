@@ -6,8 +6,11 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 0
-    path: Assets/Scenes/SampleScene.unity
+    path: 
     guid: d1c3109bdb54ad54c8a2b2838528e640
+  - enabled: 1
+    path: Assets/Scenes/VR Fruit Ninja.unity
+    guid: c170033b950065d47b40f0eaa4e36b90
   m_configObjects:
     Unity.XR.Oculus.Settings: {fileID: 11400000, guid: 367b07daa8a4442ca8f3a8350ab4a6c9, type: 2}
     com.unity.xr.management.loader_settings: {fileID: 11400000, guid: 773c93404a9dd4e208b2b088897a5504, type: 2}
