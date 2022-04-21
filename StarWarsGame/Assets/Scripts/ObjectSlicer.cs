@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 using EzySlice;
+using UnityEngine.XR.Interaction.Toolkit;
 
 public class ObjectSlicer : MonoBehaviour
 {
@@ -11,11 +12,16 @@ public class ObjectSlicer : MonoBehaviour
     public Transform endSlicingPoint;
     public LayerMask sliceableLayer;
     public VelocityEstimator velocityEstimator;
+    public AudioClip slicingSound;
+
+    private AudioSource audioSource;
+    private object activated;
 
     // Start is called before the first frame update
     void Start()
     {
-        
+     //   activated.AddListener(slicingSound);
+     //   audioSource = GetComponent<AudioSource>();
     }
 
     // Update is called once per frame
@@ -54,8 +60,12 @@ public class ObjectSlicer : MonoBehaviour
             Destroy(target);
 
         }
-
     }
+
+   // private static void Slice1(ActivateEventArgs args)
+  //  {
+  //      audioSource.PlayOneShot(slicingSound);
+  //  }
 
     void CreateSlicedComponent(GameObject slicedHull)
     {

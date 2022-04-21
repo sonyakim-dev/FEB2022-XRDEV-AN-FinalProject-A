@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.0000072674925, g: 0, b: 0.0007821944, a: 1}
+  m_IndirectSpecularColor: {r: 0, g: 0, b: 0.00071636314, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -289,6 +289,10 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 8775788376736625695, guid: 31dda5cda5dbe5245ac49dc981a3a4be, type: 3}
     - target: {fileID: 399829109799636524, guid: eaaecf940884ef54ba68ae64abafdcac, type: 3}
+      propertyPath: prefabs.Array.data[2]
+      value: 
+      objectReference: {fileID: 1103525770831862138, guid: 32a27f5756e547a4da66703be065c4a3, type: 3}
+    - target: {fileID: 399829109799636524, guid: eaaecf940884ef54ba68ae64abafdcac, type: 3}
       propertyPath: prefabs.Array.data[3]
       value: 
       objectReference: {fileID: 3172739646684030219, guid: fe85eecd4dd74404c9cc5893cf920f56, type: 3}
@@ -446,6 +450,10 @@ PrefabInstance:
       propertyPath: prefabs.Array.data[1]
       value: 
       objectReference: {fileID: 8775788376736625695, guid: 31dda5cda5dbe5245ac49dc981a3a4be, type: 3}
+    - target: {fileID: 399829109799636524, guid: eaaecf940884ef54ba68ae64abafdcac, type: 3}
+      propertyPath: prefabs.Array.data[2]
+      value: 
+      objectReference: {fileID: 1103525770831862138, guid: 32a27f5756e547a4da66703be065c4a3, type: 3}
     - target: {fileID: 399829109799636524, guid: eaaecf940884ef54ba68ae64abafdcac, type: 3}
       propertyPath: prefabs.Array.data[3]
       value: 
@@ -806,6 +814,7 @@ MonoBehaviour:
     serializedVersion: 2
     m_Bits: 192
   velocityEstimator: {fileID: 263205383}
+  slicingSound: {fileID: 0}
 --- !u!114 &263205383
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3005,6 +3014,10 @@ PrefabInstance:
       propertyPath: prefabs.Array.data[1]
       value: 
       objectReference: {fileID: 8775788376736625695, guid: 31dda5cda5dbe5245ac49dc981a3a4be, type: 3}
+    - target: {fileID: 399829109799636524, guid: eaaecf940884ef54ba68ae64abafdcac, type: 3}
+      propertyPath: prefabs.Array.data[2]
+      value: 
+      objectReference: {fileID: 1103525770831862138, guid: 32a27f5756e547a4da66703be065c4a3, type: 3}
     - target: {fileID: 399829109799636524, guid: eaaecf940884ef54ba68ae64abafdcac, type: 3}
       propertyPath: prefabs.Array.data[3]
       value: 
@@ -5283,6 +5296,7 @@ MonoBehaviour:
     serializedVersion: 2
     m_Bits: 192
   velocityEstimator: {fileID: 1899773750}
+  slicingSound: {fileID: 0}
 --- !u!1001 &1904501884
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -5711,6 +5725,10 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 8775788376736625695, guid: 31dda5cda5dbe5245ac49dc981a3a4be, type: 3}
     - target: {fileID: 399829109799636524, guid: eaaecf940884ef54ba68ae64abafdcac, type: 3}
+      propertyPath: prefabs.Array.data[2]
+      value: 
+      objectReference: {fileID: 1103525770831862138, guid: 32a27f5756e547a4da66703be065c4a3, type: 3}
+    - target: {fileID: 399829109799636524, guid: eaaecf940884ef54ba68ae64abafdcac, type: 3}
       propertyPath: prefabs.Array.data[3]
       value: 
       objectReference: {fileID: 3172739646684030219, guid: fe85eecd4dd74404c9cc5893cf920f56, type: 3}
@@ -5862,6 +5880,10 @@ PrefabInstance:
       propertyPath: prefabs.Array.data[1]
       value: 
       objectReference: {fileID: 8775788376736625695, guid: 31dda5cda5dbe5245ac49dc981a3a4be, type: 3}
+    - target: {fileID: 399829109799636524, guid: eaaecf940884ef54ba68ae64abafdcac, type: 3}
+      propertyPath: prefabs.Array.data[2]
+      value: 
+      objectReference: {fileID: 1103525770831862138, guid: 32a27f5756e547a4da66703be065c4a3, type: 3}
     - target: {fileID: 399829109799636524, guid: eaaecf940884ef54ba68ae64abafdcac, type: 3}
       propertyPath: prefabs.Array.data[3]
       value: 
