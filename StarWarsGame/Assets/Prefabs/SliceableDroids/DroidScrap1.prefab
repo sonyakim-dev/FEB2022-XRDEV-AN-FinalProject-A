@@ -13,7 +13,7 @@ GameObject:
   - component: {fileID: 7317962834379954551}
   - component: {fileID: 3654852475488282329}
   - component: {fileID: 4896223173267646944}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Pipe
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -11663,7 +11663,7 @@ GameObject:
   - component: {fileID: 3675501506521854467}
   - component: {fileID: 3675501506521854468}
   - component: {fileID: 3675501506521854469}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Cube (2)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -11758,7 +11758,7 @@ GameObject:
   - component: {fileID: 3675501506600177769}
   - component: {fileID: 3675501506600177770}
   - component: {fileID: 3675501506600177771}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Sphere
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -11854,7 +11854,7 @@ GameObject:
   - component: {fileID: 3675501506628670928}
   - component: {fileID: 3675501506628670929}
   - component: {fileID: 3675501506628670930}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Pipe (2)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -23505,7 +23505,7 @@ GameObject:
   - component: {fileID: 3675501506635711518}
   - component: {fileID: 3675501506635711519}
   - component: {fileID: 3675501506635711488}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Prism
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -23780,7 +23780,7 @@ GameObject:
   - component: {fileID: 3675501506703043453}
   - component: {fileID: 3675501506703043454}
   - component: {fileID: 3675501506703043455}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Sphere (3)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -23875,7 +23875,7 @@ GameObject:
   - component: {fileID: 3675501506727095663}
   - component: {fileID: 3675501506727095568}
   - component: {fileID: 3675501506727095569}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Sphere (2)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -23970,7 +23970,7 @@ GameObject:
   - component: {fileID: 3675501507194603920}
   - component: {fileID: 3675501507194603921}
   - component: {fileID: 3675501507194603922}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Cube
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -24065,7 +24065,9 @@ GameObject:
   - component: {fileID: -8957453558305613930}
   - component: {fileID: 464445831560678119}
   - component: {fileID: -3386380060816955134}
-  m_Layer: 0
+  - component: {fileID: 5186637588487455946}
+  - component: {fileID: 1613409448957495943}
+  m_Layer: 6
   m_Name: DroidScrap1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -24112,7 +24114,7 @@ CapsuleCollider:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 3675501507523441804}
   m_Material: {fileID: 0}
-  m_IsTrigger: 1
+  m_IsTrigger: 0
   m_Enabled: 1
   m_Radius: 0.53
   m_Height: 1.57
@@ -24130,7 +24132,7 @@ Rigidbody:
   m_Drag: 0
   m_AngularDrag: 0.05
   m_UseGravity: 1
-  m_IsKinematic: 1
+  m_IsKinematic: 0
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
@@ -24230,6 +24232,28 @@ AudioSource:
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 4
+--- !u!64 &5186637588487455946
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3675501507523441804}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 4
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: 4300002, guid: 38c445290885e384197c7c05e3d49f5f, type: 3}
+--- !u!33 &1613409448957495943
+MeshFilter:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3675501507523441804}
+  m_Mesh: {fileID: 4300002, guid: 38c445290885e384197c7c05e3d49f5f, type: 3}
 --- !u!1 &3675501507591629447
 GameObject:
   m_ObjectHideFlags: 0
@@ -24243,7 +24267,7 @@ GameObject:
   - component: {fileID: 3675501507591629443}
   - component: {fileID: 3675501507591629444}
   - component: {fileID: 3675501507591629445}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Pipe (3)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -35893,7 +35917,7 @@ GameObject:
   - component: {fileID: 3675501507721502821}
   - component: {fileID: 3675501507721502822}
   - component: {fileID: 3675501507721502823}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Cylinder (2)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -35990,7 +36014,7 @@ GameObject:
   - component: {fileID: 3675501507730261973}
   - component: {fileID: 3675501507730261974}
   - component: {fileID: 3675501507730261975}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Pipe
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -47640,7 +47664,7 @@ GameObject:
   - component: {fileID: 3675501507831879316}
   - component: {fileID: 3675501507831879317}
   - component: {fileID: 3675501507831879318}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Sphere (4)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -47735,7 +47759,7 @@ GameObject:
   - component: {fileID: 3675501507913200798}
   - component: {fileID: 3675501507913200799}
   - component: {fileID: 3675501507913200768}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Cylinder
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -47831,7 +47855,7 @@ GameObject:
   - component: {fileID: 3675501508127028035}
   - component: {fileID: 3675501508127028036}
   - component: {fileID: 3675501508127028037}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Sphere (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -47927,7 +47951,7 @@ GameObject:
   - component: {fileID: 3675501508154235012}
   - component: {fileID: 3675501508154235013}
   - component: {fileID: 3675501508154235014}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Arch
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -72119,7 +72143,7 @@ GameObject:
   - component: {fileID: 3675501508169995795}
   - component: {fileID: 3675501508169995796}
   - component: {fileID: 3675501508169995797}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Cylinder (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -72216,7 +72240,7 @@ GameObject:
   - component: {fileID: 3675501508232518754}
   - component: {fileID: 3675501508232518755}
   - component: {fileID: 3675501508232518756}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Pipe (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -83866,7 +83890,7 @@ GameObject:
   - component: {fileID: 3675501508353204075}
   - component: {fileID: 3675501508353204076}
   - component: {fileID: 3675501508353204077}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Cube (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}

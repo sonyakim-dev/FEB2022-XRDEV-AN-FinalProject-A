@@ -1,22 +1,32 @@
+using System;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.InputSystem;
+
 
 public class SaberAnim: MonoBehaviour
 {
     public Animator bladeanim;
     private bool isEnabled = false;
-    
 
-    
-    void Update()
+    public InputActionReference bladeToggleRefence;
+    void Start()
     {
-        if (Input.GetKeyDown(KeyCode.Space))
+        bladeToggleRefence.action.performed += ButtonPressed;
+    }
+
+    private void OnDestroy()
+    {
+        bladeToggleRefence.action.performed -= ButtonPressed;
+    }
+    public void ButtonPressed(InputAction.CallbackContext context)
+    {
+        if (context.performed)
         {
             ToggleBlade();
         }
     }
-
     private void ToggleBlade()
     {
         isEnabled = !isEnabled;

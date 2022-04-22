@@ -12,17 +12,13 @@ public class ObjectSlicer : MonoBehaviour
     public Transform endSlicingPoint;
     public LayerMask sliceableLayer;
     public VelocityEstimator velocityEstimator;
-    public AudioClip slicingSound;
+    public AudioClip[] slicingSound;
 
     private AudioSource audioSource;
     private object activated;
 
     // Start is called before the first frame update
-    void Start()
-    {
-     //   activated.AddListener(slicingSound);
-     //   audioSource = GetComponent<AudioSource>();
-    }
+
 
     // Update is called once per frame
     void Update()
@@ -35,7 +31,12 @@ public class ObjectSlicer : MonoBehaviour
             if (hit.transform.gameObject.layer == 7)
                 UnityEngine.SceneManagement.SceneManager.LoadScene(1);
             else
+            {
                 Slice(hit.transform.gameObject, hit.point, velocityEstimator.GetVelocityEstimate());
+                PlayAudio();
+
+            }
+               
         }
     }
 
@@ -62,10 +63,11 @@ public class ObjectSlicer : MonoBehaviour
         }
     }
 
-   // private static void Slice1(ActivateEventArgs args)
-  //  {
-  //      audioSource.PlayOneShot(slicingSound);
-  //  }
+ private void PlayAudio()
+ {
+        int index = Random.Range(0, slicingSound.Length);
+        audioSource.PlayOneShot(slicingSound[index]);
+  }
 
     void CreateSlicedComponent(GameObject slicedHull)
     {
